@@ -1,0 +1,35 @@
+body {
+    position: relative;
+}
+
+#page {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+
+}
+
+#container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-template-columns: repeat(16, 1fr) ;
+    grid-template-rows: repeat(16, 1fr);
+    
+}
+
+.grid-cells {
+    background-color:white;
+    border: 1px solid black;
+    
+}
+
+#clear-btn {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rosybrown;
+    position: relative;
+    width: 100%;
+
+}
