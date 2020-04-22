@@ -11,8 +11,8 @@ body {
 
 #container {
     display: grid;
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 600px;
     grid-template-columns: repeat(16, 1fr) ;
     grid-template-rows: repeat(16, 1fr);
     
@@ -26,10 +26,18 @@ body {
 
 #clear-btn {
     font-size: 20px;
-    padding: 5px;
+    color:  #D7F6F1;
+    padding: 9px;
+    border: none;
+    border-radius: 4px;
     margin-bottom: 10px;
-    background-color: rosybrown;
+    background-color: #72C5B7;
     position: relative;
     width: 100%;
+    transition-duration: 0.4s;
+}
 
+#clear-btn:hover {
+    background-color: #A3E1d7;
+    color: black;
 }
