@@ -8,6 +8,9 @@ function clearPad() {
 
 function createPad() {
     const container = document.querySelector('#container');
+
+    const descrip = document.querySelector("#description");
+    descrip.textContent = `A colorful Etch-A-Sketch in a ${totalGrids} X ${totalGrids} grid`;
     
     for (x = 0; x < (totalGrids * totalGrids); x++) {
         const div = document.createElement('div');

@@ -1,16 +1,18 @@
 body {
     position: relative;
+    background-color: #ABC1e3;
 }
 
 #page {
     text-align: center;
     width: fit-content;
     margin: auto;
-
+    
 }
 
 #container {
     display: grid;
+    border: 3px solid black;
     width: 600px;
     height: 600px;
     grid-template-columns: repeat(16, 1fr) ;
@@ -18,17 +20,23 @@ body {
     
 }
 
+h1 {
+    color: #4D3899;
+}
+#description {
+    color: white;
+}
 .grid-cells {
     background-color:white;
-    border: 1px solid black;
+    border: 0.5px solid rgb(90, 90, 90);
     
 }
 
 #clear-btn {
     font-size: 20px;
-    color:  #D7F6F1;
+    color:  white;
     padding: 9px;
-    border: none;
+    border: 1px solid #48A394;
     border-radius: 4px;
     margin-bottom: 10px;
     background-color: #72C5B7;
