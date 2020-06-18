@@ -1,9 +1,10 @@
  <h1>Etch-A-Sketch JavaScript Project</h1>
  <p>
  A small JavaScript, HTML, and CSS project that replicates an Etch-A-Sketch.
- 
+ <br>
+ <br>
+  This project allows a user to:
  <ul>
-This project allow a user to:
   <li> Draw on a grid</li>
   <li> Clear the grid</li>
   <li> Set the number of squares in the grid</li>
